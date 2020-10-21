@@ -220,10 +220,10 @@ georgia = AddEmployee("Georgia", "Holmes", 30, "female", "7 Seventh Street", 9)
 hanna = AddEmployee("Hanna", "Ivory", 34, "female", "8 Eighth Street", 8)
 
 # Create some books
-hobbit = NewBook("Hunger Games", 450, "Fantasy", 1000000, 12)
-fellowship = NewBook("Catching Fire", 564, "Fantasy", 836200, 12)
-twoTowers = NewBook("MockingBird Part1", 383, "Fantasy", 648300, 12)
-returnKing = NewBook("MockingBird Part1", 727, "Fantasy", 884600, 12)
+hobbit = NewBook("Casino Royale", 450, "Spy", 1000000, 12)
+fellowship = NewBook("Quantum of Solace", 564, "Spy", 836200, 12)
+twoTowers = NewBook("Skyfall", 383, "Spy", 648300, 12)
+returnKing = NewBook("Spectre", 727, "Spy", 884600, 12)
 
 # Clients check out some books
 alex.checkOutBook(hobbit)
